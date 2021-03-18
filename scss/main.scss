@@ -1,0 +1,88 @@
+@import "variables";
+@import "globals";
+
+body{
+    padding:0;
+    margin:0;
+    background-color: $violet;
+    overflow: hidden;
+    color:#fff;
+}
+
+.bg-wrapper{
+    max-width:800px;
+    height:100vh;
+    margin:0;
+    padding:0;
+    background-image: url(/images/bg-mobile.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition:  .2s ease;
+
+    @media only screen and (min-width:800px){
+        min-width:100%;
+        height:100vh;
+        margin:0;
+        padding:0;
+        background-image: url(/images/bg-desktop.svg);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+        
+        
+    }
+
+    header{
+        width:100%;
+        
+       nav{
+           margin:0 auto;
+           width:100%;
+           background-color:rgba(255, 0, 0, 0.295);
+           display: flex;
+           justify-content: start;
+           padding:.5rem 0 0 2.5rem;
+           height:5rem;
+           img{
+               width:32%;
+           }
+       }
+        
+    }
+
+    main{
+        
+        height:auto;
+        padding:2rem 2rem 0 2rem;
+        
+
+
+.text-info{
+    text-align: center;
+
+    .btn-wrap{
+        margin-top:40px;
+        .btn{
+            text-decoration: none;
+            color:$violet;
+            background-color:#fff;
+            padding:15px 100px;
+            border-radius: 25px;
+            
+            
+     
+        }
+    }
+    }
+
+
+
+
+
+
+
+
+    }
+}
