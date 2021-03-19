@@ -5,11 +5,8 @@ body{
     padding:0;
     margin:0;
     background-color: $violet;
-    overflow: hidden;
     color:#fff;
-}
 
-.bg-wrapper{
     max-width:800px;
     height:100vh;
     margin:0;
@@ -29,60 +26,102 @@ body{
         background-position: left;
         background-repeat: no-repeat;
         background-size: contain;
-        
-        
-        
     }
 
-    header{
-        width:100%;
-        
-       nav{
-           margin:0 auto;
-           width:100%;
-           background-color:rgba(255, 0, 0, 0.295);
-           display: flex;
-           justify-content: start;
-           padding:.5rem 0 0 2.5rem;
-           height:5rem;
-           img{
-               width:32%;
-           }
-       }
-        
-    }
+}
 
-    main{
-        
+
+header{
+    .nav{
+        padding:2rem 0 0 2rem;
+        .logo{
+            width:38%;
+        }
+    }
+}
+
+@media only screen and (min-width:800px){
+    header{.nav{
+       padding:5rem 0 0 5rem; .logo{width:15%;}
+}
+}
+
+    main{.content{
+        flex-direction: row;
+        justify-content:center;
+        margin-top:4rem;
+        .image{
+            width:60%;
+            padding:15px 0 0 5px;
+            img{
+                width:70%;
+            }
+        }
+
+        .text{
+            width:30%;
+        }
+    }}
+
+}
+
+main{
+    padding:10px 35px 0 30px;
+   
+}
+.content{
+    margin-top: 2rem;
+    
+    display:flex;
+    flex-direction: column;
+
+    .image {
         height:auto;
-        padding:2rem 2rem 0 2rem;
+        width:auto;
+        padding:15px 0 0 8px;
         
+        
+        //background-color:blue;
 
+        img{
+            width:100%;
+        }
+    }
+    
+    
 
-.text-info{
-    text-align: center;
+    .text{
+        text-align: center;
+        margin:2rem 0 3rem 0;
+        .btn-wrap{
+    margin-top:2rem;
 
-    .btn-wrap{
-        margin-top:40px;
         .btn{
-            text-decoration: none;
+            
+            padding:10px 75px;
+            border-radius: 15px;
+            border:none;
             color:$violet;
-            background-color:#fff;
-            padding:15px 100px;
-            border-radius: 25px;
-            
-            
-     
+            background-color: #ffffff;
+            font-size: 13px;
+            text-decoration: none;
+            box-shadow: 0px 3px 5px 0px #00000050;
         }
     }
     }
 
+}   
 
-
-
-
-
-
-
+footer{
+    .social-icons{
+        margin-top:.5rem;
+        padding:1rem;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        
+        i{
+            padding:0px 5px;
+        }
     }
 }
