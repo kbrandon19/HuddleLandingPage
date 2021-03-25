@@ -28,7 +28,7 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-image: url(/images/bg-mobile.svg);
+  background-image: url(./images/bg-mobile.svg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
@@ -42,7 +42,7 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-image: url(/images/bg-desktop.svg);
+    background-image: url(./images/bg-desktop.svg);
     background-position: left;
     background-repeat: no-repeat;
     background-size: contain;
