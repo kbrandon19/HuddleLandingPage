@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/kbrandon19/HuddleLandingPage.git]
+- Live Site URL: [https://kbrandon19.github.io/HuddleLandingPage/index.html]
 
 ## My process
 
@@ -46,6 +46,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+-Built with the dimensions of 1440x800
 
 
 
